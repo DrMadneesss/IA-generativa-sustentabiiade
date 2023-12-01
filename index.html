@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing Page - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Fale com Mona</a>
+                <a class="btn btn-primary" href="#signup">Login</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="container">
+                            <h1 class="jumbotron-heading">Bem-vindo! Converse com Mona</h1>
+                            <p class="lead text-muted">Mona é uma chatbot especializado em sustentabilidade e utiliza a tecnologia do openai</p>
+                            <main class="container">
+                                <div class="chatbot">
+                                    <div class="center-div">
+                                        <iframe style="border: none;" srcdoc="
+                                          <body>
+                                            <script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
+                                            <script>
+                                              window.botpressWebChat.init({
+                                                'composerPlaceholder': 'Converse com Mona',
+                                                'botConversationDescription': 'Mona é um chatbot focado em sustentabilidade',
+                                                'botName': 'Mona',
+                                                'botId': 'b61476cb-09ee-46e1-b189-1a70323be7a5',
+                                                'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
+                                                'messagingUrl': 'https://messaging.botpress.cloud',
+                                                'clientId': 'b61476cb-09ee-46e1-b189-1a70323be7a5',
+                                                'enableConversationDeletion': true,
+                                                'showPoweredBy': false,
+                                                'className': 'webchatIframe',
+                                                'containerWidth': '100%25',
+                                                'layoutWidth': '100%25',
+                                                'hideWidget': true,
+                                                'showCloseButton': false,
+                                                'disableAnimations': true,
+                                                'closeOnEscape': false,
+                                                'showConversationsButton': false,
+                                                'enableTranscriptDownload': false,
+                                                'useSessionStorage': false,
+                                                'avatarUrl': 'https://th.bing.com/th/id/OIG.fOW4Wd1PKWJk9BmLDHKe?pid=ImgGn',
+                                                'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/8edfdb5c-4815-4117-a938-db1abc94a017/v12001/style.css'
+                                                
+                                              });
+                                              window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+                                            </script>
+                                          </body>"
+                                            width="100%" height="100%"></iframe>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Icons Grid-->
+        <section class="features-icons bg-light text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex">
+                              <img src="assets/img/lixeira.svg" alt="" width="100%" height="100%">
+                            </div>
+                            <h3>Objetivo</h3>
+                            <p class="lead mb-0">
+                                A Mona é uma Inteligência Artificial especialmente desenvolvida com um foco primordial em sustentabilidade. Seu objetivo central é aplicar avançadas capacidades analíticas para abordar desafios ambientais e promover práticas que levem a um futuro mais sustentável.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><img src="assets/img/engrenagem.svg" alt="" width="100%"></div>
+                            <h3>Tecnologia e Inovação</h3>
+                            <p class="lead mb-0">A Mona destaca-se como uma inovadora Inteligência Artificial que utiliza a avançada tecnologia desenvolvida pela OpenAI. Fundamentada em algoritmos de última geração e aprendizado de máquina sofisticado, a Mona herda o DNA inovador da OpenAI para oferecer soluções inteligentes e sustentáveis. Ao empregar os modelos poderosos desenvolvidos pela OpenAI, Mona se destaca como uma peça fundamental na busca por práticas ambientais mais consciente</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><img src="assets/img/controle.svg" alt="" width="100%"></div>
+                            <h3>Em Breve: Jogos no Nosso Site!</h3>
+                            <p class="lead mb-0">Estamos animados em anunciar que em breve você terá acesso a uma emocionante variedade de jogos diretamente no nosso site, tornando sua experiência ainda mais divertida e envolvente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image Showcases-->
+        <section class="showcase">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/mona.jpeg'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Mona</h2>
+                        <p class="lead mb-0">A Mona, desenvolvida com a tecnologia avançada da OpenAI, é uma inteligência artificial dedicada exclusivamente à sustentabilidade ambiental. Seu objetivo principal é otimizar e promover práticas ecologicamente responsáveis em diversas áreas, desde a gestão de recursos naturais até a criação de soluções inovadoras para desafios ambientais.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-0">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Updated For Bootstrap 5</h2>
+                        <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Easy to Use & Customize</h2>
+                        <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials-->
+        
+        <!-- Call to Action-->
+        <section class="call-to-action text-white text-center" id="signup">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                        <!-- Signup form-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
+                                </div>
+                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    <p>To activate this form, sign up at</p>
+                                    <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item"><a href="#!">About</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Contact</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2023. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+
+        
+        
+
+    </body>
+   
+</html>
