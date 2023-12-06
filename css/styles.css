@@ -11,6 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ 
+
  .center-div {	
 	height: 80vh;
   }
@@ -174,6 +176,7 @@ h6, .h6 {
 }
 
 p {
+  transition: font-size 0.3s;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -499,7 +502,9 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  transition: font-size 0.3s;
 }
+
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -10926,4 +10931,17 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.fixed-buttons {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1000; /* Certifique-se de que os botões apareçam acima do conteúdo */
+}
+
+.fixed-buttons button {
+  display: block;
+  margin-bottom: 10px; /* Adicione espaço entre os botões */
 }

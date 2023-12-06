@@ -1,8 +1,18 @@
-/*!
-* Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+ let fontSize = 1.25; // Tamanho de fonte inicial em rem
 
+    function zoomIn() {
+      fontSize += 0.1; // Ajustar o valor conforme necessário
+      updateFontSize();
+    }
+
+    function zoomOut() {
+      fontSize -= 0.1; // Ajustar o valor conforme necessário
+      updateFontSize();
+    }
+
+    function updateFontSize() {
+        const leadElements = document.querySelectorAll('.lead');
+        leadElements.forEach((element) => {
+          element.style.fontSize = fontSize + 'rem';
+        });
+      }
