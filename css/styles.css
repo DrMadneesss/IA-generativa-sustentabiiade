@@ -10945,3 +10945,7 @@ footer.footer {
   display: block;
   margin-bottom: 10px; /* Adicione espaço entre os botões */
 }
+
+h1{
+  color: #D9D9D9;
+}
